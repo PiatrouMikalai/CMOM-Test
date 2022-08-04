@@ -1,0 +1,75 @@
+.table {
+    min-width: 100%;
+    border: 0;
+    white-space: nowrap;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.table-body {
+    font-family: Roboto, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0.0178571em;
+    text-decoration: inherit;
+    text-transform: inherit;
+}
+
+.table-head {
+
+}
+
+.table-row {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgba(0, 0, 0, 0.12);
+}
+
+.table-cell {
+    font-family: Roboto, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0.0178571em;
+    text-decoration: inherit;
+    text-transform: inherit;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 16px;
+    padding-left: 16px;
+    height: 52px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.table-row:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+}
+
+.table-column {
+    font-family: Roboto, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    font-weight: 500;
+    letter-spacing: 0.00714286em;
+    text-decoration: inherit;
+    text-transform: inherit;
+    box-sizing: border-box;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 16px;
+    padding-left: 16px;
+    height: 56px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.table-cell__content {
+
+}
+
+.table-column__content {
+
+}
